@@ -1,1 +1,1 @@
-# SoftUni--Front-End--Web-Fundamentals-HTML5
+# SoftUni - Front-End - Web Fundamentals - HTML5
