@@ -100,3 +100,8 @@ input[type=submit] {
     border: none;
     outline: none;
 }
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background: #004799;
+}

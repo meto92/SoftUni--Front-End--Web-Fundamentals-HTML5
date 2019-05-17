@@ -10,27 +10,32 @@
 <body>
     <section class="form">
         <h1>Form</h1>
+
         <form action="#">
             <label for="name">Name:</label>
             <label class="input-wrapper">
                 <i class="fas fa-user"></i>
-                <input type="text" placeholder="Dario Petrov">
+                <input type="text" placeholder="Dario Petrov" required>
             </label>
+
             <label for="email">Email:</label>
             <label class="input-wrapper">
                 <i class="fas fa-envelope"></i>
-                <input type="email" placeholder="dario@email.com">
+                <input type="email" placeholder="dario@email.com" required>
             </label>
+
             <label for="phone">Phone number:</label>
             <label class="input-wrapper">
                 <i class="fas fa-mobile-alt"></i>
-                <input type="email" placeholder="+359 885 445 445">
+                <input type="phone" placeholder="+359 885 445 445" required>
             </label>
+
             <label for="phone">Password <span>(minimum 6 characters):</span></label>
             <label class="input-wrapper">
                 <i class="fas fa-lock"></i>
-                <input type="password" placeholder="********">
+                <input type="password" placeholder="********" minlength="6" required>
             </label>
+
             <input type="submit" value="Sign up">
         </form>
     </section>

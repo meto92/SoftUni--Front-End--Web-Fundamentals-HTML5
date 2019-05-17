@@ -53,6 +53,7 @@
 }
 
 .site-header button:hover {
+    cursor: pointer;
     border-color: #fff;
     background: transparent;
 }
