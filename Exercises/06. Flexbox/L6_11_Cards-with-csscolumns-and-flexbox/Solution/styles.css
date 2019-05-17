@@ -1,0 +1,66 @@
+body {
+    padding: 5vh 10vw;
+    background: #eee;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.cards-layout article {
+    background: #fff;
+    width: 30%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.5);
+    margin: 0.5rem;
+}
+
+.cards-layout img {
+    width: 100%;
+    height: auto;
+}
+
+.cards-layout p {
+    padding: 1.5rem 1rem;
+}
+
+.cards-layout > article > :nth-child(3) {
+    width: 100%;
+    border-top: 2px solid #ccc;
+}
+
+.masonry {
+    display: flex;
+    flex-flow: column wrap;
+    height: 100rem;
+}
+
+.masonry article {
+    margin: 0.8rem 0.5rem;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex article {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex p:nth-of-type(2) {
+    margin-top: auto;
+}

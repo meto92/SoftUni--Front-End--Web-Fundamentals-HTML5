@@ -1,0 +1,70 @@
+.site-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("../image/computer-main.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 28rem;
+    padding: 2rem 10rem;
+    color: #fff;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header a,
+.main-nav a {
+    color: #fff;
+    display: flex;
+    align-items: center
+}
+
+.main-nav i {
+    margin-right: 0.3em;
+    font-size: 1.4em;
+    font-size: 1.2em;
+}
+
+.site-header > h2 {
+    text-align: center;
+    font-size: 2.4em;
+    margin: 1em auto 0.8em;
+    text-shadow: 1px 1px 0px #000;
+}
+
+.site-header > p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 0 auto 3em;
+    max-width: 50%;
+}
+
+.site-header button {
+    display: block;
+    color: inherit;
+    line-height: 1;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.8em 1.2em;
+    background: #00D08E;
+    border-radius: 0.3em;
+    outline: none;
+    border: 3px solid transparent;
+    margin: 0 auto 2em;
+}
+
+.site-header button:hover {
+    border-color: #fff;
+    background: transparent;
+}
+
+.site-header > a {
+    display: block;
+    margin: 0 auto 2em;
+    font-size: 1.2em;
+    text-align: center;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.site-header > a > i {
+    margin-left: 0.75em;
+}

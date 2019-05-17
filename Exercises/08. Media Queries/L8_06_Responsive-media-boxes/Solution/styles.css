@@ -1,0 +1,63 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    position: relative;
+    width: 25rem;
+    box-shadow: 0 0 5rem rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.card > div {
+    position: relative;
+    overflow: hidden;
+}
+
+.card p, .card h1 {
+    margin: 1.5rem;
+}
+
+.card > div:nth-child(1)::before {
+    padding-top: 56.25%;
+    content: "";
+    display: block;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.card .button {
+    text-decoration: none;
+    background: rgb(0, 153, 0);
+    border-radius: 0.2rem;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    position: relative;
+    right: -70%;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+}

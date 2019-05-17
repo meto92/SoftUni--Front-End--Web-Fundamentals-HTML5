@@ -1,0 +1,51 @@
+*::before, *::after {
+    color: #035B02;
+}
+
+@media screen and (min-width: 601px) {
+    .mq-width:after {
+        content: "Viewport width is larger than 600px";
+    }
+}
+
+@media screen and (min-width: 1025) {
+    .mq-width:after {
+        content: "Viewport width is larger than 1024px";
+    }
+}
+
+@media screen and (min-height: 401px) {
+    .mq-height:after {
+        content: "Viewport height is larger than 400px";
+    }
+}
+
+@media screen and (min-height: 601px) {
+    .mq-height:after {
+        content: "Viewport height is larger than 600px";
+    }
+}
+
+@media screen and (min-width: 1025) {
+    .mq-height:after {
+        content: "Viewport height is larger than 1024px";
+    }
+}
+
+@media screen and (min-device-aspect-ratio: 4/3) {
+    .mq-ar:after {
+        content: "Aspect ration is larger than 4/3";
+    }
+}
+
+@media screen and (min-device-aspect-ratio: 8/5) {
+    .mq-ar:after {
+        content: "Aspect ration is larger than 8/5";
+    }
+}
+
+@media screen and (min-device-aspect-ratio: 16/9) {
+    .mq-ar:after {
+        content: "Aspect ration is larger than 16/9";
+    }
+}

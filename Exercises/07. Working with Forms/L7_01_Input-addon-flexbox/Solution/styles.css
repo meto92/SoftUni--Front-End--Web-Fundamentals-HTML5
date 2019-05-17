@@ -1,0 +1,113 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body, input {
+    font: inherit;
+}
+
+body {
+    background: #eee;
+    padding: 5rem;
+}
+
+form {
+    width: 30%;
+    position: relative;    
+}
+
+fieldset, legend {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid #333;
+    border-radius: 0.2em;
+}
+
+fieldset {
+    padding-top: 1.5em;
+    border: 1px solid #333;
+    padding-top: 2em;
+}
+
+fieldset legend {
+    position: absolute;
+    left: 0;
+    top: -1em;
+    padding: 0.5em 4em 0.5em 0.5em;
+    background: #eee;
+}
+
+fieldset p {
+    margin: 1em 1.5em;
+}
+
+fieldset label {
+    display: block;
+    margin: 0.2em 0;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=password] {
+    padding-right: 0.5em;
+    border: none;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-wrapper {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    height: 2em;
+    margin-bottom: 0.7em;
+    position: relative;
+}
+
+.input-wrapper i {
+    padding: 0 0.5em;
+    z-index: 1;
+}
+
+.input-wrapper input {
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-left: 2em;
+    padding: 0 1em 0 2em;
+    color: #000 !important;
+}
+
+.input-wrapper:hover,
+.input-wrapper:hover i,
+.input-wrapper input:focus,
+.input-wrapper input:focus+i {
+    color: #009900;
+    border-color: #090;
+}
+
+input[type=submit] {
+    background: transparent;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #777;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin: 0.75em 0 2em 1.5em;
+}

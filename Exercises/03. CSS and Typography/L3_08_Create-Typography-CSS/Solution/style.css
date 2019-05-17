@@ -1,0 +1,101 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    /* font: 16px/1.5 Helvetica, sans-serif; */
+}
+
+body {
+    padding: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+p {
+    padding: 0;
+    margin: 2rem 0;
+}
+
+ul {
+    list-style: square;
+}
+
+ul > ul {
+    list-style: disc;
+}
+
+ul > ul > ul {
+    list-style: circle;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid rgb(221, 221, 221);
+}
+
+table > thead > tr {
+    background: #ccc;
+}
+
+table > thead th {
+    border-color: #ccc;
+}
+
+table th {
+    text-align: left;
+}
+
+table > tbody > tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+table > tbody > tr:hover td {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+blockquote {
+    border-left: 3px solid rgb(221,221,221);
+    margin-left: 2rem;
+    padding: 0.5rem 0;
+    font-style: italic;
+}
+
+blockquote p {
+    margin: 0.3rem 0 0 2rem;
+}
+
+blockquote p.author {
+    text-align: right;
+}

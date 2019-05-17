@@ -1,0 +1,43 @@
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 12px;
+    }
+    
+    .wrapper.style1 .content {
+        padding: 3rem;
+    }
+
+    .wrapper.style1 .content p {
+        color: #B7B7B7;
+    }
+
+    .wrapper.style2 {
+        padding: 2.5rem 3rem;
+    }
+
+    .wrapper.style2 .gallery > div {
+        width: 100%;
+        height: auto;
+    }
+
+    .spotlight > * {
+        flex: 1 0 100%;
+    }
+
+    .spotlight .inner {
+        padding: 2em 3em;
+        text-align: center;
+    }
+
+    .spotlight .inner h3 {
+        margin: 0 0 0.5em;
+    }
+
+    .spotlight .inner p {
+        color: #B2B2B2;
+    }
+
+    footer {
+        margin: 3em 0 1.5em;
+    }
+}

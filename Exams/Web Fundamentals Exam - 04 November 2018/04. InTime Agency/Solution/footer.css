@@ -1,0 +1,94 @@
+.site-footer {
+    color: #fff;
+}
+
+.subscribe {
+    background: #393F43;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+}
+
+.subscribe h2,
+.subscribe p {
+    margin-bottom: 0.8em;
+}
+
+.subscribe h2 {
+    position: relative;
+}
+
+.subscribe h2:after {
+    content: "";
+    width: 18%;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    left: 40%;
+    background-color: #fff;
+}
+
+.subscribe input {
+    background: #545A5E;
+    padding: 1em;
+    border: none;
+    border-radius: 0.3em;
+    width: 25rem;
+}
+
+.subscribe button {
+    margin-left: 0.5em;
+    padding: 0.5em 2em;
+    background: #6BBFFF;
+    color: inherit;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 0.3em;
+}
+
+.contacts {
+    background: #2F3539;
+    padding: 2em 8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contacts p,
+.contacts li {
+    margin-bottom: 0.8em;
+}
+
+.contacts ul {
+    list-style: none;
+}
+
+.contacts a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts .address p:nth-of-type(2) {
+    margin-bottom: 2em;
+}
+
+.contacts .follow ul {
+    display: flex;
+}
+
+.contacts .follow li {
+    margin-right: 1em;
+}
+
+.copyright {
+    background: #262B2F;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.copyright a {
+    color: #2263AD;
+    text-decoration: none;
+}

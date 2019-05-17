@@ -1,0 +1,33 @@
+header {
+    padding: 2em 10em;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header a {
+    color: #787878;
+    text-decoration: none;
+    padding: 1em;
+}
+
+header i {
+    margin-left: 0.3em;
+}
+
+.main-nav {
+    margin-left: 2em;
+}
+
+.main-nav li:first-of-type a {
+    color: #FA5B3D;
+}
+
+header nav:nth-of-type(2) li {
+    border-right: 1px solid #DDD;
+}

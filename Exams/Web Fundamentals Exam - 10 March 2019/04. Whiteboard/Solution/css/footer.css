@@ -1,0 +1,32 @@
+footer {
+    background: #B2F1DD;
+    padding: 2rem 5rem;
+    text-align: center;
+
+}
+
+footer > h2 {
+    font-size: 2em;
+    margin-bottom: 1.5em;
+}
+
+footer > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer article {
+    width: 28%;
+    margin-bottom: 2em;
+}
+
+footer article p.title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+footer > p a {
+    font-weight: bold;
+}

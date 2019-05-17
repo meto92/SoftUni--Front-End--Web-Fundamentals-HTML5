@@ -1,0 +1,98 @@
+main > section:nth-of-type(1) {
+    background: url(../img/residential-banner-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+main > section:nth-of-type(1) > .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2em;
+}
+
+main > section:nth-of-type(1) h1 {
+    text-align: center;
+}
+
+main > section:nth-of-type(1) p:last-of-type {
+    margin-bottom: 1em;
+}
+
+main > section:nth-of-type(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3em 10em;
+}
+
+main > section:nth-of-type(2) > p.title {
+    flex: 1 0 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+main > section:nth-of-type(2) > article {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+main > section:nth-of-type(2) > article > p {
+    text-align: center;
+    color: #5A5A5A;
+}
+
+main > section:nth-of-type(2) > article > p.number {
+    font-size: 2.5em;
+    font-weight: bold;
+    padding-bottom: 0.3em;
+    background: transparent;
+    position: relative;
+}
+
+main > section:nth-of-type(2) > article > p.number:before,
+main > section:nth-of-type(2) > article > p.number:after {
+    content: "";
+    height: 1px;
+    width: 15%;
+    background: currentColor;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-150%);
+}
+
+main > section:nth-of-type(2) > article > p.number:after {
+    transform: translateX(50%);    
+}
+
+main > section:nth-of-type(2) > article > p.title {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.subscriptions {
+    background: #EDEDED;
+    padding: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscriptions .content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscriptions img {
+    width: 32%;
+}

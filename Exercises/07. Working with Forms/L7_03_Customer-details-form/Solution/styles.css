@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+html {
+    font-size: 16px/1.2, Montserrat, sans-serif;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cust-det {
+    background: rgb(173, 216, 230);
+    padding: 2rem;
+}
+
+.cust-det h1 {
+    text-align: center;
+}
+
+.cust-det input,
+.cust-det select,
+.cust-det textarea {
+    padding: 0.5em;
+}
+
+.cust-det textarea {
+	resize: none;
+}
+
+.cust-det > p {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.75rem;
+}
+
+.cust-det p:not(:last-of-type) label {
+    display: inline-block;
+    width: 5rem;
+}
+
+.cust-det p:last-of-type label {
+    display: inline-block;
+    margin: 1.5rem 0;
+}
+
+.cust-det label[for=message] {
+    position: relative;
+    top: -4rem;
+}
+
+.cust-det input:not([type=radio]):not([type=checkbox]):not([type=submit]),
+.cust-det textarea,
+.cust-det select {
+    display: inline-block;
+    width: 17rem;
+}
+
+.cust-det input[type=radio] {
+    margin-left: 0;
+}
+
+.cust-det input[type=radio]+label {
+    width: auto;
+}
+
+.cust-det label+input[type=radio]+label+input[type=radio] {
+    margin-left: 1rem;
+}
+
+.cust-det input.submit {
+    background: #234465;
+    color: #fff;
+    border-radius: 0.4rem;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.horiz-center-container {
+    display: flex;
+    justify-content: center;
+}

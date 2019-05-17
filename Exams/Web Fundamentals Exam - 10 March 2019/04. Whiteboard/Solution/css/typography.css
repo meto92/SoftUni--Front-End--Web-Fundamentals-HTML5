@@ -1,0 +1,12 @@
+html {
+    font: 16px/1.5 PT Sans, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,113 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #eee;
+    margin: 2rem;
+    border: 0.3rem solid rgb(153, 153, 153);
+    display: flex;
+    justify-content: flex-start;
+    margin: 3vw;
+}
+
+.timeline {
+    background: rgb(153, 153, 153);
+    width: 0.3rem;
+    margin-top: 3rem;
+    padding-top: 4rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1.5rem;
+}
+
+.timeline .title {
+    position: absolute;
+    padding: 0.5em 1em;
+    border: 2px solid #ccc;
+    border-radius: 0.2em;
+    width: 19rem;
+    left: -1em;
+    top: -2.25em;
+    text-align: center;
+}
+
+.timeline h3 {
+    font-style: italic;
+}
+
+.timeline > article {    
+    position: relative;
+    width: 70vw;
+    left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.timeline > article:before {
+    content: "";
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 0.3rem solid rgb(153, 153, 153);
+    position: absolute;
+    left: -1.5rem;
+    top: -0.25rem;
+    transform: translateX(-50%);
+}
+
+.timeline > article:nth-of-type(odd):before {
+    background: #048E03;
+}
+
+.timeline > article:nth-of-type(even):before {
+    background: #FF9A05;
+}
+
+.timeline > article:last-of-type {
+    margin-bottom: 1rem;
+}
+
+.timeline section > ul {
+    list-style: square inside;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        justify-content: center;
+    }
+
+    .timeline {
+        align-items: center;
+    }
+
+    .timeline .title {
+        left: 0;
+        transform: translateX(-50%);
+    }
+    
+    .timeline > article {
+        width: 30vw;
+    }
+    
+    .timeline article:nth-of-type(odd) {
+        transform: translateX(50%);
+    }
+    
+    .timeline article:nth-of-type(even) {
+        text-align: right;
+        transform: translateX(calc(-50% - 3rem));
+    }
+
+    .timeline article:nth-of-type(even):before {
+        left: auto;
+        right: -3.5rem;
+    }
+}

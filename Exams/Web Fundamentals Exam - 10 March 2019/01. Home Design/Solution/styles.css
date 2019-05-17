@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&subset=latin-ext');
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+html {
+    font: 16px/1.5 Courgette, serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: #F5F5F5;
+    padding: 3rem 7rem;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 1.75em;
+}
+
+header h1,
+header h2 {
+    letter-spacing: 0.3rem;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header h2 {
+    color: #CB2027;
+    position: relative;
+    left: 4em;
+}
+
+.articles {
+    max-width: 80rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article {
+    display: inline-block;
+    width: 32%;    
+    background: #fff;
+    border-radius: 1em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.articles img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5em;
+}
+
+.articles p.title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.articles p.title:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 90%;
+    background: #CB2027;
+	margin: 0.5em auto;
+}
+
+.articles p.content {
+    margin: 0 1em 1.5em;
+}
+
+.articles a {
+    text-decoration: none;
+    color: #310000;
+    margin-top: auto;
+    margin-bottom: 1.5em;
+    align-items: center;
+}
+
+.articles i {
+    color: #CB2027;
+    margin-left: 0.75em;
+}

@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese");
+
+html {
+    font: 16px/1.5 "Open Sans", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 2rem 6rem;
+    max-width: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    flex: 1 0 100%;
+}
+
+header h1 {
+    position: relative;
+    display: inline-block;
+    align-self: flex-start;
+    margin-bottom: 0;
+}
+
+header h1:after {
+    content: "";
+    width: 75%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #34B1C4;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+p.price {
+    background: #F6F6F6;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+article {
+    width: 30%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+article > * {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+article h2 {
+    background: #333;
+    color: #fff;
+}
+
+article:nth-of-type(2) h2 {
+    background: #1996A9;
+}
+
+article button {
+    background: #008CBA;
+    color: #fff;
+    border-radius: 0.3rem;
+    padding: 1rem 2.5rem;
+}

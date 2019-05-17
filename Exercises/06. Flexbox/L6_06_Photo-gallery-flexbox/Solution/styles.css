@@ -1,0 +1,27 @@
+body {
+    padding: 5rem;
+    background: #eee;
+}
+
+body, ul, li {
+    display: flex;
+}
+
+ul {
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+li {
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 1.5rem;
+    margin: 1rem;
+    border: 10px solid #000;
+    box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.5);
+    width: 24%;
+}
+
+img {
+    flex: 0 1 auto;
+}

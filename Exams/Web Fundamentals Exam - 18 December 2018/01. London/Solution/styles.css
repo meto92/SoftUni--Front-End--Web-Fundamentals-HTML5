@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+html {
+    box-sizing: border-box;
+    font: 16px/1.5 Montserrat, sans-serif;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 3rem;
+    max-width: 80rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 0 0 50rem;
+    color: #AE192A;
+    margin-right: 2rem;
+}
+
+main > section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 47%;
+    border: 1px solid #838383;
+    border-radius: 0.75em;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card p {
+    margin: 1em 0.5em;
+}
+
+aside {
+    flex: 0 0 20rem;
+    color: #B5224A;
+}
+
+aside ul {
+    list-style: none;
+}
+
+aside li {
+    margin: 0.5em 0;
+}
+
+aside p,
+aside a {
+    font-size: 1.2em;
+}
+
+aside a {
+    text-decoration: none;
+    color: inherit;
+}
+
+aside i {
+    margin-right: 0.3em;
+}

@@ -1,0 +1,109 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body, input {
+    font: inherit;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background: #eee;
+    padding: 5rem;
+}
+
+form {
+    width: 90%;
+    position: relative;    
+}
+
+fieldset, legend {
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid #333;
+    border-radius: 0.2em;
+}
+
+fieldset {
+    padding-top: 1.5em;
+    border: 1px solid #333;
+    padding-top: 2em;
+}
+
+fieldset legend {
+    position: absolute;
+    left: 0;
+    top: -1em;
+    padding: 0.5em 4em 0.5em 0.5em;
+    background: #eee;
+}
+
+fieldset p {
+    margin: 1em 1.5em;
+}
+
+fieldset label {
+    display: block;
+    margin: 0.2em 0;
+    font-weight: bold;
+}
+
+input[type=text],
+input[type=password] {
+    padding-right: 0.5em;
+    border: none;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.input-wrapper {
+    background: #fff;
+    left: 0;
+    top: 0;
+    right: 0;
+    border: 1px solid #ccc;
+    border-radius: 0.2em;
+    display: flex;
+    align-items: center;
+    height: 2em;
+    margin-bottom: 0.7em;
+    overflow: hidden;
+}
+
+.input-wrapper i {
+    width: 7.5%;
+    padding: 0 2.5%;
+}
+
+.input-wrapper input {
+    margin: auto;
+    height: 100%;
+}
+
+.input-wrapper:hover,
+.input-wrapper:hover i {
+    color: #009900;
+    border-color: #090;
+}
+
+input[type=submit] {
+    background: #333;
+    color: #fff;
+    padding: 0.2rem 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #777;
+    border-radius: 0.1rem;
+    overflow: hidden;
+    margin: 0.75em 0 2em 1.5em;
+}

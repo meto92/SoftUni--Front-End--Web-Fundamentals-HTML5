@@ -1,0 +1,216 @@
+main > section:nth-of-type(even) {
+    margin: 2rem 4rem 4rem;
+}
+
+main > section:not(:nth-child(1)) > h2 {
+    text-align: center;
+}
+
+article {
+    margin-bottom: 1.5em;
+}
+
+.promo {
+    margin: 3rem;
+}
+
+.promo:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.promo h2,
+.promo p {
+    width: 70%;
+}
+
+.promo img {
+    float: right;
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-left: 1rem;
+}
+
+.promo button {
+    border-color: #333;
+    padding: 0.75em 1.5em;
+    border-radius: 0.3em;
+    background: transparent;
+    font-size: inherit;
+}
+
+.team {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.team > h2 {
+    flex: 1 0 100%;
+    margin-bottom: 1em;
+}
+
+.team > h2:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 5rem;
+    background: #000;
+    position: relative;
+    left: calc(50% - 2.5rem);
+    top: 0.75em;
+}
+
+.team > section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.team article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.team article > p {
+    text-align: center;
+}
+
+.team img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1.5em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.team p.name {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+.team p.description {
+    font-style: italic;
+}
+
+.sign-up {
+    background: #68347B;
+    padding: 2rem 1rem 2rem;
+    margin-bottom: 4rem;
+}
+
+.sign-up > h2 {
+    margin-bottom: 1em;
+}
+
+.sign-up > h2:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 9rem;
+    background: #000;
+    position: relative;
+    left: calc(50% - 4.5rem);
+    top: 0.5em;
+}
+
+.sign-up p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.sign-up input,
+.sign-up button {
+    border-color: #000;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+.sign-up input {
+    flex: 1 1 auto;
+    margin-right: 1em;
+    outline: none;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.testimonials > h2 {
+    margin-bottom: 2em;
+    flex: 1 0 100%;
+}
+
+.testimonials > h2:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 5rem;
+    background: #000;
+    position: relative;
+    left: calc(50% - 2.5rem);
+    top: 0.5em;
+}
+
+.testimonials article {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.testimonials p {
+    text-align: center;
+}
+
+.testimonials p.description {
+    font-style: italic;
+}
+
+.testimonials p.name {
+    font-weight: bold;
+    padding-bottom: 0.3em;
+}
+
+.testimonials img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1.5em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (min-width: 1024px) {
+    header h1,
+    header h1:after {
+        font-size: 1em;
+    }
+    
+    label[for="nav-toggle"] {
+        display: none;
+    }
+
+    .nav-main {
+        display: flex;
+    }
+   
+    .team article,
+    .testimonials article {
+        width: 30%;
+    }
+
+    main > section:nth-of-type(1) {
+        margin: 7rem 8rem 6rem;
+    }
+}

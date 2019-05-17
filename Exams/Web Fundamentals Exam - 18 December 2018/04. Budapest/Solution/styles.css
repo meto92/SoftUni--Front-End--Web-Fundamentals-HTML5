@@ -1,0 +1,9 @@
+@import url("reset.css");
+@import url("buttons.css");
+@import url("header.css");
+@import url("main.css");
+@import url("footer.css");
+
+html {
+    font: 16px/1.5 Helvetica, sans-serif;
+}

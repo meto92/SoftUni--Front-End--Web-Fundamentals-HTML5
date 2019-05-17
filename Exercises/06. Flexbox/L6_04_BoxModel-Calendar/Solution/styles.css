@@ -1,0 +1,47 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem;
+}
+
+div.container {
+    max-width: 65vw;
+}
+
+div.container,
+section.week,
+section.notes,
+div.container span {
+    display: flex;
+}
+
+section.notes {
+    flex-direction: column;
+}
+
+div.container section {
+    flex-wrap: wrap;
+}
+
+div.container span {
+    flex: 1 0 auto;
+    justify-content: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-top: 1.5rem;
+}
+
+section.week span {
+    height: 7rem;
+}
+
+section.notes span {
+    height: 50%;
+    min-width: 10rem;
+}
+
+.max-width {
+    width: 100%;
+}

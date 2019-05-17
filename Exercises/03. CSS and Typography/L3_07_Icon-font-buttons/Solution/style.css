@@ -1,0 +1,36 @@
+@import url("https://use.fontawesome.com/releases/v5.3.1/css/all.css");
+
+body {
+    padding: 5rem;
+}
+
+.button {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 0.2rem;
+    display: block;
+    width: 6rem;
+}
+
+.button i {
+    margin-right: 0.5rem;
+    transition: transform 0.5s;
+}
+
+.button:hover {
+    background: red;
+    color: #000;
+}
+
+.button:hover i {
+    transform: rotate(360deg);
+}
+
+.click-me {
+    background: green;
+}
+
+.email-me {
+    background: orange;
+}

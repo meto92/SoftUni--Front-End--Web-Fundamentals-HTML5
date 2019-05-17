@@ -1,0 +1,118 @@
+.wrapper1 {
+    background: #F05F40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+.wrapper1 h3,
+.wrapper1 p {
+    color: #fff;
+    text-align: center;
+}
+
+.wrapper1 h3 {
+    font-weight: normal;
+}
+
+.wrapper1 h3:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 1.5em;
+    background: #fff;
+    position: relative;
+    left: calc(50% - 0.75em);
+    margin: 0.5em 0 0.3em;
+}
+
+.wrapper1 p {
+    width: 50%;
+}
+
+.wrapper1 button {
+    padding: 1em 2em;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.wrapper2 {
+    padding: 3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wrapper2 > h3 {
+    text-align: center;
+    flex: 1 0 100%;
+    font-weight: normal;
+}
+
+.wrapper2 > h3:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 1.5em;
+    background: #E56349;
+    margin: 0.75em auto 1.5em;
+}
+
+.wrapper2 .content {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper2 article {
+    width: 23%;
+    text-align: center;
+}
+
+.wrapper2 article i {
+    color: #F25E40;
+    font-size: 2.8em;
+    margin-bottom: 0.3em;
+}
+
+.wrapper2 article p.title,
+.wrapper2 article p.description {
+    text-align: center;
+}
+
+.wrapper2 article p.title {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.wrapper2 article p.description {
+    color: #87857F;
+}
+
+.wrapper3, 
+.wrapper3 img {
+    border: 3px solid #F25E42;
+    border-collapse: collapse;
+} 
+
+.wrapper3 {
+    border-left: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.wrapper3 img {
+    width: 30%;
+    height: auto;
+    border-top: none;
+    border-bottom: none;
+}

@@ -1,0 +1,130 @@
+html {
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: #eee;
+    padding: 3rem;
+}
+
+body > input[type=checkbox] {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1em;
+    border-bottom: 2px solid #000;
+}
+
+p.site-title {
+    font-weight: bold;
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+header input[type=checkbox] {
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+header input[type=checkbox] {
+    position: relative;
+}
+
+header input[type=checkbox]:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #eee;
+    content: "";
+}
+
+header input[type=checkbox]:before {
+    content: "XMenu";
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    z-index: 111;
+}
+
+header input[type=checkbox]:checked + nav {
+    display: none;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header li:not(:last-of-type) {
+    margin-right: 1em;
+}
+
+header a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background: #2D2D2D;
+    color: #fff;
+    border-radius: 0.3em;
+}
+
+@media screen and (max-width: 800px) {
+    header {
+        flex-flow: column wrap;
+        padding-bottom: 0;
+    }
+
+    p.site-title {
+        margin-bottom: 1.5em;
+    }
+
+    header input {
+        margin-bottom: 1em;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header ul {
+        flex-direction: column;
+    }
+
+    header li {
+        margin: 0.5em 0;
+        width: 100%;
+    }
+
+    header a {
+        display: inline-block;
+        width: 100%;
+    }
+
+    header input:not(:checked)+nav {
+        border-top: 2px solid #000;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    header input {
+        display: none;
+    }
+
+    header nav {
+        display: block !important;
+    }
+}

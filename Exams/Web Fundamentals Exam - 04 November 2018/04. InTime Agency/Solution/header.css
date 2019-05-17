@@ -1,0 +1,31 @@
+.site-header {
+    padding: 2em 6em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header > p {
+    font-size: 1.5em;
+}
+
+.site-header > p > span {
+    color: #21A2BC;
+}
+
+.site-header ul {
+    display: flex;
+    list-style: none;
+}
+
+.site-header li:not(:last-of-type) {
+    margin-right: 2em;
+}
+
+.site-header li:first-of-type {
+    border-bottom: 3px solid #34B1C4;
+}
+
+.site-header a {
+    text-decoration: none;
+    color: #454545;
+}

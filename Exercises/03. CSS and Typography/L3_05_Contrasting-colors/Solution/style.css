@@ -1,0 +1,20 @@
+html {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+    /* font: 16px/1.5 Helvetica, sans-serif; */
+}
+
+body {
+    padding: 5rem;
+}
+
+article {
+    background: rgb(51, 102, 153);
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}

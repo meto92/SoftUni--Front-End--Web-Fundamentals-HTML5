@@ -1,0 +1,100 @@
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+html {
+    font-family: Montserat, sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    /* font: 16px/1.2, Montserrat, sans-serif; */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #2EB4E4, #DD1BFB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    border-radius: 0.3rem;
+    display: flex;
+    width: 25rem;
+}
+
+.sign-in-form {
+    padding: 2rem 3rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+}
+
+.sign-in-form h2 {
+    text-align: center;
+    flex: 1 0 100%;
+    font-weight: normal;
+    margin-bottom: 2rem;
+    position: relative;
+    top: -1rem;
+}
+
+.sign-in-form .buttons {
+    display: flex;
+    flex: 1 0 100%;
+}
+
+.sign-in-form input {
+    height: 2.5rem;
+    border: 2px solid #E6E6E6;
+    border-radius: 0.3rem;
+    background: #F7F7F7;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    outline: none;
+    flex: 1 0 auto;
+    font-size: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+.sign-in-form input:focus {
+    border-color: #FC00FF;
+}
+
+.sign-in-form button {
+    background: #333;
+    color: #fff;
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto;
+    cursor: pointer;
+}
+
+.sign-in-form .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    border: 2px solid #ECECEC;
+    border-radius: 0.5rem;
+    color: #000;
+    flex: 1 0 auto;
+}
+
+.sign-in-form .button.facebook {
+    background: #3B5998;
+    color: #fff;
+    margin-right: 0.5rem;
+}
+
+.sign-in-form .button:hover {
+    background-image: linear-gradient(to right, #26B9E3, #E018FB);
+}
+
+.sign-in-form .button i {
+    padding-right: 1rem;
+}

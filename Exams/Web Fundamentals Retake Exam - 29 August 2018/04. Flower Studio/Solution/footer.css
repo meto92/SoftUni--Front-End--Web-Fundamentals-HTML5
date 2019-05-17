@@ -1,0 +1,96 @@
+footer {
+    background: #000;
+    color: #3F3F3F;
+    padding: 3em 10em 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding-bottom: 2em;
+    margin-right: 1.5em;
+    border-bottom: 1px solid #444;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+footer li {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+footer > section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer > section:nth-of-type(1) p {
+    text-align: center;
+    padding-bottom: 0.75em;
+}
+
+.circles {
+    margin-top: 1.5em;
+}
+
+.circles span {
+    display: inline-block;
+    width: 0.75em;
+    height: 0.75em;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    margin-right: 0.3em;
+}
+
+.circles span:nth-of-type(2) {
+    background: #fff;
+}
+
+.sign-up {
+    margin-left: 2em;
+    margin-top: 1em;
+    width: 22em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sign-up p {
+    text-align: center;
+    margin-left: 0.55em;
+}
+
+.sign-up input {
+    padding: 0.7em;
+    width: 17rem;
+    margin-bottom: 1em;    
+}
+
+.sign-up button {
+    padding: 1em 0.5em;
+    color: #fff;
+    background: #FA5B3C;
+    outline: none;
+    border: none;
+    width: auto;
+}
+
+footer > p {
+    flex: 1 0 100%;
+    text-align: center;
+    margin-top: 3em;
+}

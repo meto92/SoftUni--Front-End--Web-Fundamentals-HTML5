@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border: 2px solid;
+    border-radius: 1.5rem;
+    background: transparent;
+    outline: none;
+    font-size: inherit;
+}
+
+.button:not(.hover) {
+    margin-right: 0.7rem;
+}
+
+.hover {
+    background: rgb(251, 251, 251);
+    border-color: rgb(0, 102, 0);
+    color: rgb(51, 51, 51);
+}
+
+a.button.fill,
+button.button.fill {
+    background: rgb(0, 102, 0);
+    color: rgb(251, 251, 251);
+}
+
+.button.fill:not(.hover) {
+    background: rgb(51, 51, 51);
+}

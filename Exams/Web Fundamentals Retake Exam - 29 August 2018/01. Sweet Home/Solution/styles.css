@@ -1,0 +1,64 @@
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+html {
+    font: 16px/1.5 "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 1.5rem 3rem;
+    margin: 0 auto;
+	max-width: 80rem;
+}
+
+.headers {
+    display: flex;
+}
+
+.headers header {
+    border-left: 2px solid #656565;
+    padding: 0.1em 1em 1em;
+    margin: 2em 0;
+    flex: 0 0 33.33%;
+}
+
+.headers header:nth-of-type(2) {
+    margin-left: auto;
+}
+
+.headers header p.title {
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.headers header p:nth-of-type(2) {
+    color: #777;
+}
+
+.content {
+    display: flex;
+}
+
+.content > * {
+    flex: 0 0 33.33%;
+}
+
+.content article {
+    display: flex;
+    flex: 0 0 66.67%;
+}
+
+.content article p {
+    flex: 0 0 50%;
+    padding-right: 1.5em;
+}
+
+.content img {
+    flex: 0 0 33.33%;
+}

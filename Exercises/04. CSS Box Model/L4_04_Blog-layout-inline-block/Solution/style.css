@@ -1,0 +1,22 @@
+html {
+    color: rgb(51, 51, 51);
+}
+
+body {
+    background: #eee;
+    padding: 5rem;
+}
+
+ul {
+    list-style: square;
+}
+
+img {
+    width: 60%;
+    height: auto;
+}
+
+aside {
+    margin-top: 3rem;
+    width: 25vw;
+}

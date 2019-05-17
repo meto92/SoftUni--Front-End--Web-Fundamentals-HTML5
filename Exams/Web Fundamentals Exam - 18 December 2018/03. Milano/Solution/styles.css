@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
+
+html {
+    font: 16px/1.5 Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    color: #4C4C4C;
+}
+
+.buy-ticket {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #000;
+    max-width: 60rem;
+}
+
+.buy-ticket > h2 {
+    flex: 1 0 100%;
+    background: #ECECEC;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.buy-ticket i {
+    margin-right: 0.5em;
+}
+
+.buy-ticket .left {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    padding: 1em;
+    border-right: 1px solid #000;
+}
+
+.buy-ticket .left img {
+    width: 150%;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.buy-ticket .left p:first-of-type {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    align-items: flex-start;
+}
+
+form > select,
+form > section {
+    margin-bottom: 1em;
+}
+
+form select,
+form input,
+form button {
+    border-radius: 0.75em;
+}
+
+form > select {
+    font: inherit;
+    width: 100%;
+    padding: 0.5em;
+    text-align-last: center;
+    font-size: 1.3em;
+    outline: none;
+}
+
+.ticket-info {
+    display: flex;
+    width: 90%;
+}
+
+.ticket-info > section {
+    flex: 1 0 50%;
+    margin-right: 1.5em;
+}
+
+.ticket-info p {
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.ticket-info p label {
+    width: 20%;
+}
+
+.ticket-info p input {
+    flex: 1 0 80%;
+    outline: none;
+    border: 1px solid #000;
+    padding: 0.5em;
+}
+
+form button {
+    outline: none;
+    background: #E34B4A;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    font-size: 1.5em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 2em;
+}
+
+form button:hover {
+    background: #CD2F3D;
+}

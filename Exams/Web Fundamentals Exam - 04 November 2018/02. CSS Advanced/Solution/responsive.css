@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) {
+    body {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    main section {
+        flex-wrap: wrap;
+    }
+
+    .left-to-right {
+        width: 100vw;
+    }
+
+    .left-to-right:first-child {
+        height: 30rem;
+    }
+
+    main .left-to-right > article {
+        border-radius: 5rem;
+        padding: 2rem 1.5rem;
+        height: auto;
+        width: auto;
+    }
+    
+    main section:nth-child(1), 
+    main section:nth-child(3) {
+        flex: 1 0 100%;
+        height: auto;
+    } 
+
+    main section:nth-child(2) > article,
+    main section:nth-child(4) > article {
+        flex-wrap: wrap;
+        margin-left: 5rem;
+    }
+
+    main article button {
+        display: none;
+    }
+
+    form {
+        max-width: 100vw;
+    }
+}

@@ -1,0 +1,23 @@
+body {
+    background: rgb(238, 238, 238);
+}
+
+ul.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    list-style: none;
+}
+
+ul.gallery li {
+    display: inline-block;
+}
+
+.gallery li img {
+    width: 25vw;
+    height: auto;
+    flex: 0 1 auto;
+    border: 0.4rem solid #000;
+    margin: 1rem;
+    padding: 1rem;
+}

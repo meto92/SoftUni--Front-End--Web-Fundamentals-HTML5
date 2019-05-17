@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+@media screen and (max-width: 768px) {
+    #main {
+        flex-wrap: wrap;
+    }
+    
+    #main > aside {
+        flex: 1 0 90%;
+    }
+
+    #main > aside img {
+        margin-top: 2em;
+        width: 94%;
+        height: auto;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #main > main {
+        flex: 1 0 90%;
+    }
+
+    #education {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .uni-img-container {
+        margin-right: 0;
+        float: none;
+        width: 35%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .uni-img-container img {
+        width: 100%;
+        height:  auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+    #main {
+        flex-wrap: wrap;
+        padding: 1em 2em;
+    }
+
+    #main > aside {
+        flex: 1 0 90%;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+    }
+
+    #main > aside > img {
+        margin-top: 2em;
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50%;
+        overflow: hidden;
+        box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+        position: relative;
+        left: 20%;
+        transform: translateX(-20%);
+        margin: 3em 6em 5em 0;
+    }
+
+    #personal-info {
+        flex: 1 1 50%;
+        position: relative;
+        top: 6%;
+        left: 15%;
+    }
+
+    #skills,
+    #languages {
+        flex: 1 0 100%;
+        margin-bottom: 2em;
+    }
+
+    #main > main {
+        flex: 1 0 90%;
+    }
+
+    #education {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
