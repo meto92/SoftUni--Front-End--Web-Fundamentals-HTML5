@@ -1,0 +1,138 @@
+@media screen and (max-width: 480px) {
+    header ul,
+    .div-logo {
+        display: none;
+    }
+
+    header .options {
+        flex-direction: column;
+    }
+
+    header .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery article {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1.5em;
+    }
+
+    .gallery article > img {
+        width: 80vw;
+        height: auto;
+    }
+
+    .gallery article > div > a {
+        margin-left: 0;
+    }
+
+    .blog .blog-title {
+        justify-content: center;
+    }
+
+    .blog .blog-title h4 span,
+    .blog .blog-title h4+a {
+        display: none;
+    }
+
+    .blog .blog-title h4 {
+        margin: 0.75em 0 0.5em;
+    }
+
+    .blog article img {
+        display: none;
+    }
+
+    #about-blog {
+        width: 95%;
+        height: auto;
+    }
+
+    #about-blog p {
+        height: auto;
+    }
+
+    .magazine > .magazine-title {
+        padding-left: 1em;
+        width: 100%;
+    }
+
+    .magazine > .magazine-title h4 {
+        width: 100%;
+    }
+
+    .magazine > .magazine-title span {
+        padding-left: 1em;
+    }
+
+    .magazine > .magazine-title a {
+        display: none;
+    }
+
+    .magazine article {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #magazine-img {
+        width: 80%;
+        height: auto;
+        border: none;
+        padding-left: 0;
+    }
+
+    .magazine-info {
+        margin-left: 0;
+    }
+
+    .magazine-info img {
+        width: 100%;
+        height: auto;
+    }
+
+    .magazine-info h3 {
+        text-align: center;
+        margin: 0.5em 0 1em;
+    }
+
+    .magazine-info p {
+        text-align: center;
+        margin: 0 2em;
+    }
+
+    .magazine-info button {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 2.5em 0 0;
+        padding: 0.5em 1em;
+        font-size: 1.5em;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer p {
+        font-size: 2em;
+    }
+
+    footer .icons a {
+        display: block;
+        margin: 1em 0;
+    }
+
+    footer .icons i {
+        font-size: 2em;
+    }
+}

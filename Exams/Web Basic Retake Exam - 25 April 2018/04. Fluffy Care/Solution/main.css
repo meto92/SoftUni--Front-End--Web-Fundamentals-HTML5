@@ -1,0 +1,84 @@
+.wrapper1 {
+    background: url("../images/background.jpg") no-repeat center;
+    background-size: cover;
+    padding: 2em 0;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper1 ul {
+    flex: 1 0 100%;
+    list-style-type: none;
+    display: flex;
+}
+
+.wrapper1 a {
+    text-decoration: none;
+    margin: 0.5em 1.5em;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.wrapper1 h1 {
+    width: 30%;
+    text-align: center;
+    margin: 1em 0 1.6em;
+    font-size: 5em;
+}
+
+.wrapper2 {
+    padding: 4rem;
+    text-align: center;
+}
+
+.wrapper2 ul {
+    list-style-type: none;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.wrapper2 li {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper2 li img {
+    width: 50%;
+    height: auto;
+}
+
+.wrapper2 li p.title {
+    padding-bottom: 1em;
+}
+
+.wrapper2 li p.title {
+    font-weight: bold;
+}
+
+.wrapper2 li button {
+    padding: 0.5em 1em;
+    background: #92D2EE;
+    outline: none;
+    border: none;
+    border-radius: 0.2em;
+}
+
+.wrapper3 {
+    padding: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.wrapper3 img {
+    width: 33.33%;
+    height: auto;
+}

@@ -1,0 +1,16 @@
+footer {
+    background: #82CA9C;
+    padding: 1em 0;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    padding-bottom: 0;
+}
+
+footer p.title {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
